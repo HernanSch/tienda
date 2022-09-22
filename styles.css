@@ -1,0 +1,21 @@
+.encabezado{
+    width: 100%;
+    height: 100%;
+    display: flex;    
+    position: fixed;
+    justify-content: space-between;   
+}
+
+.padre{
+    display: flex;
+    text-shadow: 3;
+    flex-wrap: wrap;
+}
+
+.hijos{
+    display: flex;
+    margin: 25px 10px;
+    width: 150px;  
+    height: 200px;
+    flex-direction: column;
+}
